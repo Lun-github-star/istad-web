@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Mode Example</title>
+  <link href="./tailwind.css" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-gray-800 text-black dark:text-white">
+  <div class="p-4">
+    <h1 class="text-xl">This is a dark mode example</h1>
+    <p>If dark mode is enabled, the background is dark, and the text is light.</p>
+  </div>
+
+  <script>
+    // Example JavaScript to toggle dark mode
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark');
+    }
+
+    // Toggle dark mode when a button is clicked
+    document.querySelector('button').addEventListener('click', toggleDarkMode);
+  </script>
+
+  <button class="mt-4 p-2 bg-blue-500 text-white">Toggle Dark Mode</button>
+</body>
+</html>
+
+
+
+
+
+

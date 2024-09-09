@@ -1,0 +1,64 @@
+*{
+    text-decoration: none;
+    color: black;
+}
+
+.panel-box{
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.panel-primary{
+    background: url(https://gridbyexample.com/img/inflicted.png);
+    grid-column: 1 / span 3;
+    color: white;
+}
+
+.homepage-bar{
+    padding: 20px;
+    background-color: purple;
+    grid-column: 1 / span 5;
+}
+
+
+@media (min-width: 640px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    .panel-a{
+        grid-column: 4 / span 2 ;
+    }
+    
+    .panel-b{
+        grid-column: 1 / span 2;
+    }
+    
+    .panel-c{
+        grid-column: 3 / span 3;
+    }
+    
+    .panel-d{
+        grid-column: 1 / span 4;
+    }
+    
+    .panel-f{
+        grid-column: 1 / span 3;
+    }
+    
+    .panel-i{
+        grid-column: 1 / span 5;
+    }
+}
+
+@media (width <= 640px){
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

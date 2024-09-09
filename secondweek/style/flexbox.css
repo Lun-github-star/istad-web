@@ -1,0 +1,45 @@
+
+main{
+    width: 50%;
+    height: 100vh;
+    border: 5px solid rgb(206, 76, 96);
+    margin: auto;
+    display: flex;
+    padding-top: 5%;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;  /*stand*/
+    justify-content: space-evenly; /*sleep*/
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.box1{
+    background-color: rgb(143, 204, 178);
+    flex-grow: 0; /*flex shrik VS flex grow (box size)*/
+    flex-shrink: 10;
+    flex-basis: 200px;
+}
+.box2{
+    background-color: aquamarine;
+}
+.box3{
+    background-color: beige;
+}
+.box4{
+    background-color: rgb(98, 171, 207);
+}
+.box5{
+    background-color: rgb(9, 104, 206);
+}
+.box6{
+    background-color: cadetblue;
+}

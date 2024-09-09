@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    @keyframes slideIn{
+        0%{
+            margin-left: 100%;
+            width: 150vw;
+        }
+        100%{
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+
+    @keyframes rotate{
+        from {
+                transform: rotate(0deg);
+            } to {
+                transform: rotate(360deg);
+            }
+    }
+
+    @keyframes bounching{
+        0%{
+            transform: translate(0);
+        }
+        50%{
+            transform: translate(20px);
+        }
+        100%{
+            transform: translate(0px);
+        }
+    }
+
+    h1{
+        animation: slideIn 2s ease-in-out alternate;
+    }
+
+    h2{
+        animation: rotate 2s linear;
+    }
+
+    h3{
+        animation: bounching 2s ease-in-out infinite;
+    }
+</style>
+<body>
+    <main>
+        <h1>This is slideIn text</h1>
+        <h2>This is rotate text</h2>
+        <h3>This is bouncing text</h3>
+    </main>
+</body>
+</html>

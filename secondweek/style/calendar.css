@@ -1,0 +1,50 @@
+   
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   font-family: 'Poppins', Courier, monospace;
+   /* font-size: large; */
+}
+table{
+   width: 100%;
+   height: 100vh;
+   border-collapse: collapse;
+}
+
+table th, td{
+  width: 14.28%; 
+  padding: 20px 0px;
+  text-align: center;
+}
+
+thead th{
+   background-color: purple;
+   color: white;
+}
+
+tbody tr{
+   background-color: whitesmoke;
+   color: purple;
+}
+.bg-orange{
+   background-color: orange;
+   color: white;
+}
+
+.number6{
+   border: 5px dashed purple;
+}
+
+.number8{
+   color: white;
+   background-image: url(https://ca-times.brightspotcdn.com/dims4/default/aa8b743/2147483647/strip/true/crop/2121x1414+0+0/resize/1200x800!/quality/75/?url=https:%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F8f%2F9c%2Fabc523bd42c6ac17bd44ea9d3f6d%2Fistock-1371896330.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+
+.number25{
+   background: url(https://handletheheat.com/wp-content/uploads/2021/02/chocolate-cupcakes-SQUARE-500x500.png) no-repeat center;
+   background-size: cover;
+   color: white;
+}
